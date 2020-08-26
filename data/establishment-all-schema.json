@@ -1,0 +1,2901 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/object1597948376.json",
+    "title": "Root",
+    "type": "object",
+    "required": [
+        "establishment",
+        "establishmentStatus",
+        "establishmentInfo",
+        "establishmentContact",
+        "establishmentAddress",
+        "establishmentClosingAnnulle",
+        "establishmentClosingWeekly",
+        "ranking",
+        "service",
+        "equipment",
+        "environment",
+        "recreation",
+        "paymentMethod",
+        "language",
+        "roomPrice",
+        "roomEquipment",
+        "event",
+        "eventActivity",
+        "eventHall",
+        "eventHallPicture",
+        "eventHallCapacity",
+        "eventService",
+        "eventResidential",
+        "eventResidentialRestaurant",
+        "eventResidentialPrice",
+        "eventPrestation",
+        "restaurant",
+        "restaurantPrice",
+        "restaurantEquipment",
+        "restaurantService",
+        "restaurantClosingAnnulle",
+        "restaurantClosingWeekly",
+        "restaurantRanking"
+    ],
+    "properties": {
+        "establishment": {
+            "$id": "#root/establishment",
+            "title": "Establishment",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishment/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "establishmentId",
+                    "xenonId",
+                    "typeEstablishmentCode",
+                    "typeEstablishmentGuideCode"
+                ],
+                "properties": {
+                    "establishmentId": {
+                        "$id": "#root/establishment/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            112
+                        ],
+                        "default": 0
+                    },
+                    "xenonId": {
+                        "$id": "#root/establishment/items/xenonId",
+                        "title": "Xenonid",
+                        "type": "integer",
+                        "examples": [
+                            2634
+                        ],
+                        "default": 0
+                    },
+                    "typeEstablishmentCode": {
+                        "$id": "#root/establishment/items/typeEstablishmentCode",
+                        "title": "Typeestablishmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Restaurant"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "typeEstablishmentGuideCode": {
+                        "$id": "#root/establishment/items/typeEstablishmentGuideCode",
+                        "title": "Typeestablishmentguidecode",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "establishmentStatus": {
+            "$id": "#root/establishmentStatus",
+            "title": "Establishmentstatus",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentStatus/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeStatutCode",
+                    "createdAt"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/establishmentStatus/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentStatus/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeStatutCode": {
+                        "$id": "#root/establishmentStatus/items/typeStatutCode",
+                        "title": "Typestatutcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Actif"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "createdAt": {
+                        "$id": "#root/establishmentStatus/items/createdAt",
+                        "title": "Createdat",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "14/08/2020 11:03:29"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "establishmentInfo": {
+            "$id": "#root/establishmentInfo",
+            "title": "Establishmentinfo",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentInfo/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "name",
+                    "shortName",
+                    "guidePage",
+                    "segmentCode",
+                    "dateInChain",
+                    "dateOutChain"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/establishmentInfo/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentInfo/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "name": {
+                        "$id": "#root/establishmentInfo/items/name",
+                        "title": "Name",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Le Domaine du Roncemay  Hôtel & GOLF"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "shortName": {
+                        "$id": "#root/establishmentInfo/items/shortName",
+                        "title": "Shortname",
+                        "type": "null",
+                        "default": null
+                    },
+                    "guidePage": {
+                        "$id": "#root/establishmentInfo/items/guidePage",
+                        "title": "Guidepage",
+                        "type": "integer",
+                        "examples": [
+                            167
+                        ],
+                        "default": 0
+                    },
+                    "segmentCode": {
+                        "$id": "#root/establishmentInfo/items/segmentCode",
+                        "title": "Segmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Les collectionneurs"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "dateInChain": {
+                        "$id": "#root/establishmentInfo/items/dateInChain",
+                        "title": "Dateinchain",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "dateOutChain": {
+                        "$id": "#root/establishmentInfo/items/dateOutChain",
+                        "title": "Dateoutchain",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "establishmentContact": {
+            "$id": "#root/establishmentContact",
+            "title": "Establishmentcontact",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentContact/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "telMobile",
+                    "id",
+                    "establishmentId",
+                    "telNumberTrack",
+                    "telNumber",
+                    "faxAllowed",
+                    "faxNumber",
+                    "email"
+                ],
+                "properties": {
+                    "telMobile": {
+                        "$id": "#root/establishmentContact/items/telMobile",
+                        "title": "Telmobile",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "id": {
+                        "$id": "#root/establishmentContact/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentContact/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "telNumberTrack": {
+                        "$id": "#root/establishmentContact/items/telNumberTrack",
+                        "title": "Telnumbertrack",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "telNumber": {
+                        "$id": "#root/establishmentContact/items/telNumber",
+                        "title": "Telnumber",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "+33 (0)3 86 73 50 50"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "faxAllowed": {
+                        "$id": "#root/establishmentContact/items/faxAllowed",
+                        "title": "Faxallowed",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "faxNumber": {
+                        "$id": "#root/establishmentContact/items/faxNumber",
+                        "title": "Faxnumber",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "email": {
+                        "$id": "#root/establishmentContact/items/email",
+                        "title": "Email",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "info@roncemay.com"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "establishmentAddress": {
+            "$id": "#root/establishmentAddress",
+            "title": "Establishmentaddress",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentAddress/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "touristRegionCode",
+                    "districtCode",
+                    "numInsee",
+                    "address1",
+                    "arrondissement",
+                    "address2",
+                    "codePostal",
+                    "idRefCity",
+                    "countryCode",
+                    "regionCodeRef",
+                    "regionCode",
+                    "latitude",
+                    "longitude",
+                    "departmentCode"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/establishmentAddress/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentAddress/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "touristRegionCode": {
+                        "$id": "#root/establishmentAddress/items/touristRegionCode",
+                        "title": "Touristregioncode",
+                        "type": "null",
+                        "default": null
+                    },
+                    "districtCode": {
+                        "$id": "#root/establishmentAddress/items/districtCode",
+                        "title": "Districtcode",
+                        "type": "null",
+                        "default": null
+                    },
+                    "numInsee": {
+                        "$id": "#root/establishmentAddress/items/numInsee",
+                        "title": "Numinsee",
+                        "type": "null",
+                        "default": null
+                    },
+                    "address1": {
+                        "$id": "#root/establishmentAddress/items/address1",
+                        "title": "Address1",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Boisserelle"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "arrondissement": {
+                        "$id": "#root/establishmentAddress/items/arrondissement",
+                        "title": "Arrondissement",
+                        "type": "null",
+                        "default": null
+                    },
+                    "address2": {
+                        "$id": "#root/establishmentAddress/items/address2",
+                        "title": "Address2",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "codePostal": {
+                        "$id": "#root/establishmentAddress/items/codePostal",
+                        "title": "Codepostal",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "89110"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "idRefCity": {
+                        "$id": "#root/establishmentAddress/items/idRefCity",
+                        "title": "Idrefcity",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Chassy"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "countryCode": {
+                        "$id": "#root/establishmentAddress/items/countryCode",
+                        "title": "Countrycode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "France"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "regionCodeRef": {
+                        "$id": "#root/establishmentAddress/items/regionCodeRef",
+                        "title": "Regioncoderef",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Bourgogne-Franche-Comté"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "regionCode": {
+                        "$id": "#root/establishmentAddress/items/regionCode",
+                        "title": "Regioncode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Bourgogne"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "latitude": {
+                        "$id": "#root/establishmentAddress/items/latitude",
+                        "title": "Latitude",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "47.844616"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "longitude": {
+                        "$id": "#root/establishmentAddress/items/longitude",
+                        "title": "Longitude",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "3.300519"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "departmentCode": {
+                        "$id": "#root/establishmentAddress/items/departmentCode",
+                        "title": "Departmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Yonne"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "establishmentClosingAnnulle": {
+            "$id": "#root/establishmentClosingAnnulle",
+            "title": "Establishmentclosingannulle",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentClosingAnnulle/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "typeClosingCode",
+                    "establishmentId",
+                    "startDate",
+                    "endDate",
+                    "closingInfo"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/establishmentClosingAnnulle/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeClosingCode": {
+                        "$id": "#root/establishmentClosingAnnulle/items/typeClosingCode",
+                        "title": "Typeclosingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "FERMAN"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentClosingAnnulle/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "startDate": {
+                        "$id": "#root/establishmentClosingAnnulle/items/startDate",
+                        "title": "Startdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "endDate": {
+                        "$id": "#root/establishmentClosingAnnulle/items/endDate",
+                        "title": "Enddate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "closingInfo": {
+                        "$id": "#root/establishmentClosingAnnulle/items/closingInfo",
+                        "title": "Closinginfo",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            " - "
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "establishmentClosingWeekly": {
+            "$id": "#root/establishmentClosingWeekly",
+            "title": "Establishmentclosingweekly",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/establishmentClosingWeekly/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "typeClosingCode",
+                    "establishmentId",
+                    "startDate",
+                    "endDate",
+                    "closingInfo"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/establishmentClosingWeekly/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeClosingCode": {
+                        "$id": "#root/establishmentClosingWeekly/items/typeClosingCode",
+                        "title": "Typeclosingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "FERMAN"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "establishmentId": {
+                        "$id": "#root/establishmentClosingWeekly/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "startDate": {
+                        "$id": "#root/establishmentClosingWeekly/items/startDate",
+                        "title": "Startdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "endDate": {
+                        "$id": "#root/establishmentClosingWeekly/items/endDate",
+                        "title": "Enddate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "closingInfo": {
+                        "$id": "#root/establishmentClosingWeekly/items/closingInfo",
+                        "title": "Closinginfo",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            " - "
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "ranking": {
+            "$id": "#root/ranking",
+            "title": "Ranking",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/ranking/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "rankingDate",
+                    "typeRankingCode",
+                    "typeClassmentCode",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/ranking/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/ranking/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "rankingDate": {
+                        "$id": "#root/ranking/items/rankingDate",
+                        "title": "Rankingdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "14/08/2020 11:03:44"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "typeRankingCode": {
+                        "$id": "#root/ranking/items/typeRankingCode",
+                        "title": "Typerankingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "4"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "typeClassmentCode": {
+                        "$id": "#root/ranking/items/typeClassmentCode",
+                        "title": "Typeclassmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Classement hôtelier les Collectionneurs"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "description": {
+                        "$id": "#root/ranking/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "service": {
+            "$id": "#root/service",
+            "title": "Service",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/service/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeServiceCode",
+                    "available",
+                    "chargable",
+                    "amount",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/service/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/service/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeServiceCode": {
+                        "$id": "#root/service/items/typeServiceCode",
+                        "title": "Typeservicecode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Voiturier"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/service/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            0
+                        ],
+                        "default": 0
+                    },
+                    "chargable": {
+                        "$id": "#root/service/items/chargable",
+                        "title": "Chargable",
+                        "type": "null",
+                        "default": null
+                    },
+                    "amount": {
+                        "$id": "#root/service/items/amount",
+                        "title": "Amount",
+                        "type": "null",
+                        "default": null
+                    },
+                    "description": {
+                        "$id": "#root/service/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "equipment": {
+            "$id": "#root/equipment",
+            "title": "Equipment",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/equipment/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeEquipmentCode",
+                    "available",
+                    "distance",
+                    "onSite",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/equipment/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/equipment/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeEquipmentCode": {
+                        "$id": "#root/equipment/items/typeEquipmentCode",
+                        "title": "Typeequipmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Parking"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/equipment/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "distance": {
+                        "$id": "#root/equipment/items/distance",
+                        "title": "Distance",
+                        "type": "null",
+                        "default": null
+                    },
+                    "onSite": {
+                        "$id": "#root/equipment/items/onSite",
+                        "title": "Onsite",
+                        "type": "null",
+                        "default": null
+                    },
+                    "description": {
+                        "$id": "#root/equipment/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "environment": {
+            "$id": "#root/environment",
+            "title": "Environment",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/environment/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeEnvironmentCode",
+                    "area",
+                    "available",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/environment/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/environment/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeEnvironmentCode": {
+                        "$id": "#root/environment/items/typeEnvironmentCode",
+                        "title": "Typeenvironmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Parc (+2 ha)"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "area": {
+                        "$id": "#root/environment/items/area",
+                        "title": "Area",
+                        "type": "integer",
+                        "examples": [
+                            140
+                        ],
+                        "default": 0
+                    },
+                    "available": {
+                        "$id": "#root/environment/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "description": {
+                        "$id": "#root/environment/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "recreation": {
+            "$id": "#root/recreation",
+            "title": "Recreation",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/recreation/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeRecreationCode",
+                    "onSite",
+                    "available",
+                    "distance",
+                    "overload",
+                    "amount",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/recreation/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/recreation/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeRecreationCode": {
+                        "$id": "#root/recreation/items/typeRecreationCode",
+                        "title": "Typerecreationcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Piscine Extérieure"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "onSite": {
+                        "$id": "#root/recreation/items/onSite",
+                        "title": "Onsite",
+                        "type": "null",
+                        "default": null
+                    },
+                    "available": {
+                        "$id": "#root/recreation/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "distance": {
+                        "$id": "#root/recreation/items/distance",
+                        "title": "Distance",
+                        "type": "null",
+                        "default": null
+                    },
+                    "overload": {
+                        "$id": "#root/recreation/items/overload",
+                        "title": "Overload",
+                        "type": "null",
+                        "default": null
+                    },
+                    "amount": {
+                        "$id": "#root/recreation/items/amount",
+                        "title": "Amount",
+                        "type": "null",
+                        "default": null
+                    },
+                    "description": {
+                        "$id": "#root/recreation/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "paymentMethod": {
+            "$id": "#root/paymentMethod",
+            "title": "Paymentmethod",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/paymentMethod/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeModePaymentsCode",
+                    "available"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/paymentMethod/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/paymentMethod/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeModePaymentsCode": {
+                        "$id": "#root/paymentMethod/items/typeModePaymentsCode",
+                        "title": "Typemodepaymentscode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "AMEX"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/paymentMethod/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "language": {
+            "$id": "#root/language",
+            "title": "Language",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/language/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeLanguageCode",
+                    "available"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/language/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/language/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeLanguageCode": {
+                        "$id": "#root/language/items/typeLanguageCode",
+                        "title": "Typelanguagecode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Allemand"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/language/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "roomPrice": {
+            "$id": "#root/roomPrice",
+            "title": "Roomprice",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/roomPrice/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "numberDouble",
+                    "numberTwin",
+                    "minSingleRoomPrice",
+                    "maxSingleRoomPrice",
+                    "minDoubleRoomPrice",
+                    "maxDoubleRoomPrice",
+                    "minSuiteRoomPrice",
+                    "maxSuiteRoomPrice",
+                    "numberSuite",
+                    "numberSingle",
+                    "breakfastInclude",
+                    "typeBreakfastCode",
+                    "breakfastPrice"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/roomPrice/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/roomPrice/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "numberDouble": {
+                        "$id": "#root/roomPrice/items/numberDouble",
+                        "title": "Numberdouble",
+                        "type": "null",
+                        "default": null
+                    },
+                    "numberTwin": {
+                        "$id": "#root/roomPrice/items/numberTwin",
+                        "title": "Numbertwin",
+                        "type": "null",
+                        "default": null
+                    },
+                    "minSingleRoomPrice": {
+                        "$id": "#root/roomPrice/items/minSingleRoomPrice",
+                        "title": "Minsingleroomprice",
+                        "type": "null",
+                        "default": null
+                    },
+                    "maxSingleRoomPrice": {
+                        "$id": "#root/roomPrice/items/maxSingleRoomPrice",
+                        "title": "Maxsingleroomprice",
+                        "type": "null",
+                        "default": null
+                    },
+                    "minDoubleRoomPrice": {
+                        "$id": "#root/roomPrice/items/minDoubleRoomPrice",
+                        "title": "Mindoubleroomprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "125.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "maxDoubleRoomPrice": {
+                        "$id": "#root/roomPrice/items/maxDoubleRoomPrice",
+                        "title": "Maxdoubleroomprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "240.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "minSuiteRoomPrice": {
+                        "$id": "#root/roomPrice/items/minSuiteRoomPrice",
+                        "title": "Minsuiteroomprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "280.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "maxSuiteRoomPrice": {
+                        "$id": "#root/roomPrice/items/maxSuiteRoomPrice",
+                        "title": "Maxsuiteroomprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "280.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "numberSuite": {
+                        "$id": "#root/roomPrice/items/numberSuite",
+                        "title": "Numbersuite",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "numberSingle": {
+                        "$id": "#root/roomPrice/items/numberSingle",
+                        "title": "Numbersingle",
+                        "type": "null",
+                        "default": null
+                    },
+                    "breakfastInclude": {
+                        "$id": "#root/roomPrice/items/breakfastInclude",
+                        "title": "Breakfastinclude",
+                        "type": "integer",
+                        "examples": [
+                            0
+                        ],
+                        "default": 0
+                    },
+                    "typeBreakfastCode": {
+                        "$id": "#root/roomPrice/items/typeBreakfastCode",
+                        "title": "Typebreakfastcode",
+                        "type": "null",
+                        "default": null
+                    },
+                    "breakfastPrice": {
+                        "$id": "#root/roomPrice/items/breakfastPrice",
+                        "title": "Breakfastprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "16.000"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                }
+            }
+        },
+        "roomEquipment": {
+            "$id": "#root/roomEquipment",
+            "title": "Roomequipment",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/roomEquipment/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "typeRoomEquipmentCode",
+                    "available"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/roomEquipment/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/roomEquipment/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeRoomEquipmentCode": {
+                        "$id": "#root/roomEquipment/items/typeRoomEquipmentCode",
+                        "title": "Typeroomequipmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Coffre-fort dans la chambre"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/roomEquipment/items/available",
+                        "title": "Available",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "event": {
+            "$id": "#root/event",
+            "title": "Event",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/event/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "restaurantEvent",
+                    "eventFaciliteAcces",
+                    "eventCharter",
+                    "meetingCapacityMax",
+                    "hallNumberMin",
+                    "hallNumberMax",
+                    "maxTotalSpace",
+                    "minTotalSpace",
+                    "classeCapacityMax",
+                    "theaterCapacityMax",
+                    "uCapacityMax",
+                    "rectangleCapacityMax",
+                    "cocktailCapacityMax",
+                    "dinerCapacityMax",
+                    "cabaretCapacityMax",
+                    "outsourceUnavailableMaterialOnSite",
+                    "websiteEvent",
+                    "accrocheWebSite",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/event/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/event/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "restaurantEvent": {
+                        "$id": "#root/event/items/restaurantEvent",
+                        "title": "Restaurantevent",
+                        "type": "integer",
+                        "examples": [
+                            0
+                        ],
+                        "default": 0
+                    },
+                    "eventFaciliteAcces": {
+                        "$id": "#root/event/items/eventFaciliteAcces",
+                        "title": "Eventfaciliteacces",
+                        "type": "integer",
+                        "examples": [
+                            0
+                        ],
+                        "default": 0
+                    },
+                    "eventCharter": {
+                        "$id": "#root/event/items/eventCharter",
+                        "title": "Eventcharter",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "meetingCapacityMax": {
+                        "$id": "#root/event/items/meetingCapacityMax",
+                        "title": "Meetingcapacitymax",
+                        "type": "null",
+                        "default": null
+                    },
+                    "hallNumberMin": {
+                        "$id": "#root/event/items/hallNumberMin",
+                        "title": "Hallnumbermin",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "hallNumberMax": {
+                        "$id": "#root/event/items/hallNumberMax",
+                        "title": "Hallnumbermax",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "maxTotalSpace": {
+                        "$id": "#root/event/items/maxTotalSpace",
+                        "title": "Maxtotalspace",
+                        "type": "null",
+                        "default": null
+                    },
+                    "minTotalSpace": {
+                        "$id": "#root/event/items/minTotalSpace",
+                        "title": "Mintotalspace",
+                        "type": "null",
+                        "default": null
+                    },
+                    "classeCapacityMax": {
+                        "$id": "#root/event/items/classeCapacityMax",
+                        "title": "Classecapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            30
+                        ],
+                        "default": 0
+                    },
+                    "theaterCapacityMax": {
+                        "$id": "#root/event/items/theaterCapacityMax",
+                        "title": "Theatercapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            30
+                        ],
+                        "default": 0
+                    },
+                    "uCapacityMax": {
+                        "$id": "#root/event/items/uCapacityMax",
+                        "title": "Ucapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            30
+                        ],
+                        "default": 0
+                    },
+                    "rectangleCapacityMax": {
+                        "$id": "#root/event/items/rectangleCapacityMax",
+                        "title": "Rectanglecapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            30
+                        ],
+                        "default": 0
+                    },
+                    "cocktailCapacityMax": {
+                        "$id": "#root/event/items/cocktailCapacityMax",
+                        "title": "Cocktailcapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            80
+                        ],
+                        "default": 0
+                    },
+                    "dinerCapacityMax": {
+                        "$id": "#root/event/items/dinerCapacityMax",
+                        "title": "Dinercapacitymax",
+                        "type": "integer",
+                        "examples": [
+                            70
+                        ],
+                        "default": 0
+                    },
+                    "cabaretCapacityMax": {
+                        "$id": "#root/event/items/cabaretCapacityMax",
+                        "title": "Cabaretcapacitymax",
+                        "type": "null",
+                        "default": null
+                    },
+                    "outsourceUnavailableMaterialOnSite": {
+                        "$id": "#root/event/items/outsourceUnavailableMaterialOnSite",
+                        "title": "Outsourceunavailablematerialonsite",
+                        "type": "null",
+                        "default": null
+                    },
+                    "websiteEvent": {
+                        "$id": "#root/event/items/websiteEvent",
+                        "title": "Websiteevent",
+                        "type": "null",
+                        "default": null
+                    },
+                    "accrocheWebSite": {
+                        "$id": "#root/event/items/accrocheWebSite",
+                        "title": "Accrochewebsite",
+                        "type": "null",
+                        "default": null
+                    },
+                    "description": {
+                        "$id": "#root/event/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "eventActivity": {
+            "$id": "#root/eventActivity",
+            "title": "Eventactivity",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventActivity/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventId",
+                    "typeEventActivityCode",
+                    "groupActivityCode",
+                    "available",
+                    "chargeable",
+                    "amount",
+                    "outdoors",
+                    "teamBuilding",
+                    "establishmentId",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventActivity/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            77
+                        ],
+                        "default": 0
+                    },
+                    "eventId": {
+                        "$id": "#root/eventActivity/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeEventActivityCode": {
+                        "$id": "#root/eventActivity/items/typeEventActivityCode",
+                        "title": "Typeeventactivitycode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Land Art"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "groupActivityCode": {
+                        "$id": "#root/eventActivity/items/groupActivityCode",
+                        "title": "Groupactivitycode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Activité artistique / Culturelle / Bien-être"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/eventActivity/items/available",
+                        "title": "Available",
+                        "type": "null",
+                        "default": null
+                    },
+                    "chargeable": {
+                        "$id": "#root/eventActivity/items/chargeable",
+                        "title": "Chargeable",
+                        "type": "null",
+                        "default": null
+                    },
+                    "amount": {
+                        "$id": "#root/eventActivity/items/amount",
+                        "title": "Amount",
+                        "type": "null",
+                        "default": null
+                    },
+                    "outdoors": {
+                        "$id": "#root/eventActivity/items/outdoors",
+                        "title": "Outdoors",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "teamBuilding": {
+                        "$id": "#root/eventActivity/items/teamBuilding",
+                        "title": "Teambuilding",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventActivity/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "description": {
+                        "$id": "#root/eventActivity/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "eventHall": {
+            "$id": "#root/eventHall",
+            "title": "Eventhall",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventHall/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventId",
+                    "name",
+                    "available",
+                    "totalSpace",
+                    "daylight",
+                    "dissociatedAccess",
+                    "airConditionedRoom",
+                    "concealableRoom",
+                    "dinnerPossible",
+                    "lengthWidth",
+                    "establishmentId",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventHall/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "eventId": {
+                        "$id": "#root/eventHall/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "name": {
+                        "$id": "#root/eventHall/items/name",
+                        "title": "Name",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Château grande salle"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/eventHall/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "totalSpace": {
+                        "$id": "#root/eventHall/items/totalSpace",
+                        "title": "Totalspace",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "99999999.999"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "daylight": {
+                        "$id": "#root/eventHall/items/daylight",
+                        "title": "Daylight",
+                        "type": "null",
+                        "default": null
+                    },
+                    "dissociatedAccess": {
+                        "$id": "#root/eventHall/items/dissociatedAccess",
+                        "title": "Dissociatedaccess",
+                        "type": "null",
+                        "default": null
+                    },
+                    "airConditionedRoom": {
+                        "$id": "#root/eventHall/items/airConditionedRoom",
+                        "title": "Airconditionedroom",
+                        "type": "null",
+                        "default": null
+                    },
+                    "concealableRoom": {
+                        "$id": "#root/eventHall/items/concealableRoom",
+                        "title": "Concealableroom",
+                        "type": "null",
+                        "default": null
+                    },
+                    "dinnerPossible": {
+                        "$id": "#root/eventHall/items/dinnerPossible",
+                        "title": "Dinnerpossible",
+                        "type": "null",
+                        "default": null
+                    },
+                    "lengthWidth": {
+                        "$id": "#root/eventHall/items/lengthWidth",
+                        "title": "Lengthwidth",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventHall/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "description": {
+                        "$id": "#root/eventHall/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "eventHallPicture": {
+            "$id": "#root/eventHallPicture",
+            "title": "Eventhallpicture",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventHallPicture/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "pictureLink",
+                    "description",
+                    "id",
+                    "eventHallId",
+                    "active",
+                    "eventId",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "pictureLink": {
+                        "$id": "#root/eventHallPicture/items/pictureLink",
+                        "title": "Picturelink",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Domaine de RONCEMAY-18_20180614134725_1.jpg"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "description": {
+                        "$id": "#root/eventHallPicture/items/description",
+                        "title": "Description",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Les Collectionneurs"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "id": {
+                        "$id": "#root/eventHallPicture/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            294
+                        ],
+                        "default": 0
+                    },
+                    "eventHallId": {
+                        "$id": "#root/eventHallPicture/items/eventHallId",
+                        "title": "Eventhallid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "active": {
+                        "$id": "#root/eventHallPicture/items/active",
+                        "title": "Active",
+                        "type": "null",
+                        "default": null
+                    },
+                    "eventId": {
+                        "$id": "#root/eventHallPicture/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventHallPicture/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "eventHallCapacity": {
+            "$id": "#root/eventHallCapacity",
+            "title": "Eventhallcapacity",
+            "type": "array",
+            "default": []
+        },
+        "eventService": {
+            "$id": "#root/eventService",
+            "title": "Eventservice",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventService/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventId",
+                    "typeEventServiceCode",
+                    "available",
+                    "chargeable",
+                    "amount",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventService/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            16
+                        ],
+                        "default": 0
+                    },
+                    "eventId": {
+                        "$id": "#root/eventService/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeEventServiceCode": {
+                        "$id": "#root/eventService/items/typeEventServiceCode",
+                        "title": "Typeeventservicecode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Accès Internet câblé"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/eventService/items/available",
+                        "title": "Available",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "chargeable": {
+                        "$id": "#root/eventService/items/chargeable",
+                        "title": "Chargeable",
+                        "type": "null",
+                        "default": null
+                    },
+                    "amount": {
+                        "$id": "#root/eventService/items/amount",
+                        "title": "Amount",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventService/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "eventResidential": {
+            "$id": "#root/eventResidential",
+            "title": "Eventresidential",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventResidential/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventId",
+                    "maxRoom",
+                    "singleCapacity",
+                    "twinCapacity",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventResidential/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "eventId": {
+                        "$id": "#root/eventResidential/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "maxRoom": {
+                        "$id": "#root/eventResidential/items/maxRoom",
+                        "title": "Maxroom",
+                        "type": "integer",
+                        "examples": [
+                            19
+                        ],
+                        "default": 0
+                    },
+                    "singleCapacity": {
+                        "$id": "#root/eventResidential/items/singleCapacity",
+                        "title": "Singlecapacity",
+                        "type": "null",
+                        "default": null
+                    },
+                    "twinCapacity": {
+                        "$id": "#root/eventResidential/items/twinCapacity",
+                        "title": "Twincapacity",
+                        "type": "integer",
+                        "examples": [
+                            4
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventResidential/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "eventResidentialRestaurant": {
+            "$id": "#root/eventResidentialRestaurant",
+            "title": "Eventresidentialrestaurant",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventResidentialRestaurant/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventResidentialInfoId",
+                    "maxRestoHall",
+                    "restoCapacity",
+                    "foodAvailableOnSite",
+                    "numberPeopleMinMenu",
+                    "eventId",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventResidentialRestaurant/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "eventResidentialInfoId": {
+                        "$id": "#root/eventResidentialRestaurant/items/eventResidentialInfoId",
+                        "title": "Eventresidentialinfoid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "maxRestoHall": {
+                        "$id": "#root/eventResidentialRestaurant/items/maxRestoHall",
+                        "title": "Maxrestohall",
+                        "type": "integer",
+                        "examples": [
+                            3
+                        ],
+                        "default": 0
+                    },
+                    "restoCapacity": {
+                        "$id": "#root/eventResidentialRestaurant/items/restoCapacity",
+                        "title": "Restocapacity",
+                        "type": "integer",
+                        "examples": [
+                            240
+                        ],
+                        "default": 0
+                    },
+                    "foodAvailableOnSite": {
+                        "$id": "#root/eventResidentialRestaurant/items/foodAvailableOnSite",
+                        "title": "Foodavailableonsite",
+                        "type": "null",
+                        "default": null
+                    },
+                    "numberPeopleMinMenu": {
+                        "$id": "#root/eventResidentialRestaurant/items/numberPeopleMinMenu",
+                        "title": "Numberpeopleminmenu",
+                        "type": "null",
+                        "default": null
+                    },
+                    "eventId": {
+                        "$id": "#root/eventResidentialRestaurant/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventResidentialRestaurant/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "eventResidentialPrice": {
+            "$id": "#root/eventResidentialPrice",
+            "title": "Eventresidentialprice",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventResidentialPrice/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventResidentialInfoId",
+                    "minPriceStudyDay",
+                    "minPriceResidentialSingle",
+                    "minPriceResidentialTwin",
+                    "minPriceBusinessMeal",
+                    "eventId",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventResidentialPrice/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "eventResidentialInfoId": {
+                        "$id": "#root/eventResidentialPrice/items/eventResidentialInfoId",
+                        "title": "Eventresidentialinfoid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "minPriceStudyDay": {
+                        "$id": "#root/eventResidentialPrice/items/minPriceStudyDay",
+                        "title": "Minpricestudyday",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "60.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "minPriceResidentialSingle": {
+                        "$id": "#root/eventResidentialPrice/items/minPriceResidentialSingle",
+                        "title": "Minpriceresidentialsingle",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "0.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "minPriceResidentialTwin": {
+                        "$id": "#root/eventResidentialPrice/items/minPriceResidentialTwin",
+                        "title": "Minpriceresidentialtwin",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "226.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "minPriceBusinessMeal": {
+                        "$id": "#root/eventResidentialPrice/items/minPriceBusinessMeal",
+                        "title": "Minpricebusinessmeal",
+                        "type": "null",
+                        "default": null
+                    },
+                    "eventId": {
+                        "$id": "#root/eventResidentialPrice/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventResidentialPrice/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "eventPrestation": {
+            "$id": "#root/eventPrestation",
+            "title": "Eventprestation",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/eventPrestation/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "eventId",
+                    "typeEventPrestationCode",
+                    "available",
+                    "priceFrom",
+                    "establishmentId",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/eventPrestation/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            7
+                        ],
+                        "default": 0
+                    },
+                    "eventId": {
+                        "$id": "#root/eventPrestation/items/eventId",
+                        "title": "Eventid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeEventPrestationCode": {
+                        "$id": "#root/eventPrestation/items/typeEventPrestationCode",
+                        "title": "Typeeventprestationcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Evénements d’équipe et team Building"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/eventPrestation/items/available",
+                        "title": "Available",
+                        "type": "null",
+                        "default": null
+                    },
+                    "priceFrom": {
+                        "$id": "#root/eventPrestation/items/priceFrom",
+                        "title": "Pricefrom",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/eventPrestation/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "description": {
+                        "$id": "#root/eventPrestation/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "restaurant": {
+            "$id": "#root/restaurant",
+            "title": "Restaurant",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurant/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "establishmentId",
+                    "name",
+                    "sameAddressTel",
+                    "telNumber",
+                    "address1",
+                    "address2",
+                    "codePostal",
+                    "idRefCity",
+                    "countryCode",
+                    "maxSeatedCapacity",
+                    "restarantInLcGuide",
+                    "nbrWineBiodynamique"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurant/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurant/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "name": {
+                        "$id": "#root/restaurant/items/name",
+                        "title": "Name",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Le Roncemay"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "sameAddressTel": {
+                        "$id": "#root/restaurant/items/sameAddressTel",
+                        "title": "Sameaddresstel",
+                        "type": "null",
+                        "default": null
+                    },
+                    "telNumber": {
+                        "$id": "#root/restaurant/items/telNumber",
+                        "title": "Telnumber",
+                        "type": "null",
+                        "default": null
+                    },
+                    "address1": {
+                        "$id": "#root/restaurant/items/address1",
+                        "title": "Address1",
+                        "type": "null",
+                        "default": null
+                    },
+                    "address2": {
+                        "$id": "#root/restaurant/items/address2",
+                        "title": "Address2",
+                        "type": "null",
+                        "default": null
+                    },
+                    "codePostal": {
+                        "$id": "#root/restaurant/items/codePostal",
+                        "title": "Codepostal",
+                        "type": "null",
+                        "default": null
+                    },
+                    "idRefCity": {
+                        "$id": "#root/restaurant/items/idRefCity",
+                        "title": "Idrefcity",
+                        "type": "null",
+                        "default": null
+                    },
+                    "countryCode": {
+                        "$id": "#root/restaurant/items/countryCode",
+                        "title": "Countrycode",
+                        "type": "null",
+                        "default": null
+                    },
+                    "maxSeatedCapacity": {
+                        "$id": "#root/restaurant/items/maxSeatedCapacity",
+                        "title": "Maxseatedcapacity",
+                        "type": "null",
+                        "default": null
+                    },
+                    "restarantInLcGuide": {
+                        "$id": "#root/restaurant/items/restarantInLcGuide",
+                        "title": "Restarantinlcguide",
+                        "type": "null",
+                        "default": null
+                    },
+                    "nbrWineBiodynamique": {
+                        "$id": "#root/restaurant/items/nbrWineBiodynamique",
+                        "title": "Nbrwinebiodynamique",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "restaurantPrice": {
+            "$id": "#root/restaurantPrice",
+            "title": "Restaurantprice",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurantPrice/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "restaurantId",
+                    "averageCartePrice",
+                    "minPriceMenu",
+                    "maxPriceMenu",
+                    "halfPensionPrice",
+                    "completePensionPrice",
+                    "lunchPriceMenu",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurantPrice/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "restaurantId": {
+                        "$id": "#root/restaurantPrice/items/restaurantId",
+                        "title": "Restaurantid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "averageCartePrice": {
+                        "$id": "#root/restaurantPrice/items/averageCartePrice",
+                        "title": "Averagecarteprice",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "65.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "minPriceMenu": {
+                        "$id": "#root/restaurantPrice/items/minPriceMenu",
+                        "title": "Minpricemenu",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "40.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "maxPriceMenu": {
+                        "$id": "#root/restaurantPrice/items/maxPriceMenu",
+                        "title": "Maxpricemenu",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "55.000"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "halfPensionPrice": {
+                        "$id": "#root/restaurantPrice/items/halfPensionPrice",
+                        "title": "Halfpensionprice",
+                        "type": "null",
+                        "default": null
+                    },
+                    "completePensionPrice": {
+                        "$id": "#root/restaurantPrice/items/completePensionPrice",
+                        "title": "Completepensionprice",
+                        "type": "null",
+                        "default": null
+                    },
+                    "lunchPriceMenu": {
+                        "$id": "#root/restaurantPrice/items/lunchPriceMenu",
+                        "title": "Lunchpricemenu",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurantPrice/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "restaurantEquipment": {
+            "$id": "#root/restaurantEquipment",
+            "title": "Restaurantequipment",
+            "type": "array",
+            "default": []
+        },
+        "restaurantService": {
+            "$id": "#root/restaurantService",
+            "title": "Restaurantservice",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurantService/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "restaurantId",
+                    "typeRestaurantServiceCode",
+                    "available",
+                    "chargable",
+                    "amount",
+                    "establishmentId",
+                    "description"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurantService/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "restaurantId": {
+                        "$id": "#root/restaurantService/items/restaurantId",
+                        "title": "Restaurantid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "typeRestaurantServiceCode": {
+                        "$id": "#root/restaurantService/items/typeRestaurantServiceCode",
+                        "title": "Typerestaurantservicecode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Vente à emporter"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "available": {
+                        "$id": "#root/restaurantService/items/available",
+                        "title": "Available",
+                        "type": "null",
+                        "default": null
+                    },
+                    "chargable": {
+                        "$id": "#root/restaurantService/items/chargable",
+                        "title": "Chargable",
+                        "type": "null",
+                        "default": null
+                    },
+                    "amount": {
+                        "$id": "#root/restaurantService/items/amount",
+                        "title": "Amount",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurantService/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "description": {
+                        "$id": "#root/restaurantService/items/description",
+                        "title": "Description",
+                        "type": "null",
+                        "default": null
+                    }
+                }
+            }
+        },
+        "restaurantClosingAnnulle": {
+            "$id": "#root/restaurantClosingAnnulle",
+            "title": "Restaurantclosingannulle",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurantClosingAnnulle/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "typeClosingCode",
+                    "restaurantId",
+                    "startDate",
+                    "endDate",
+                    "closingInfo",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurantClosingAnnulle/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeClosingCode": {
+                        "$id": "#root/restaurantClosingAnnulle/items/typeClosingCode",
+                        "title": "Typeclosingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "FERMAN"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "restaurantId": {
+                        "$id": "#root/restaurantClosingAnnulle/items/restaurantId",
+                        "title": "Restaurantid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "startDate": {
+                        "$id": "#root/restaurantClosingAnnulle/items/startDate",
+                        "title": "Startdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "02/12/2019"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "endDate": {
+                        "$id": "#root/restaurantClosingAnnulle/items/endDate",
+                        "title": "Enddate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "31/03/2020"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "closingInfo": {
+                        "$id": "#root/restaurantClosingAnnulle/items/closingInfo",
+                        "title": "Closinginfo",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "02/12/2019 - 31/03/2020"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurantClosingAnnulle/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "restaurantClosingWeekly": {
+            "$id": "#root/restaurantClosingWeekly",
+            "title": "Restaurantclosingweekly",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurantClosingWeekly/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "typeClosingCode",
+                    "restaurantId",
+                    "startDate",
+                    "endDate",
+                    "closingInfo",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurantClosingWeekly/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    },
+                    "typeClosingCode": {
+                        "$id": "#root/restaurantClosingWeekly/items/typeClosingCode",
+                        "title": "Typeclosingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "FERMAN"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "restaurantId": {
+                        "$id": "#root/restaurantClosingWeekly/items/restaurantId",
+                        "title": "Restaurantid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "startDate": {
+                        "$id": "#root/restaurantClosingWeekly/items/startDate",
+                        "title": "Startdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "02/12/2019"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "endDate": {
+                        "$id": "#root/restaurantClosingWeekly/items/endDate",
+                        "title": "Enddate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "31/03/2020"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "closingInfo": {
+                        "$id": "#root/restaurantClosingWeekly/items/closingInfo",
+                        "title": "Closinginfo",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "02/12/2019 - 31/03/2020"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurantClosingWeekly/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        },
+        "restaurantRanking": {
+            "$id": "#root/restaurantRanking",
+            "title": "Restaurantranking",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/restaurantRanking/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "id",
+                    "restaurantId",
+                    "rankingDate",
+                    "typeRankingCode",
+                    "typeClassmentCode",
+                    "linkRestaurantRanking",
+                    "establishmentId"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#root/restaurantRanking/items/id",
+                        "title": "Id",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "restaurantId": {
+                        "$id": "#root/restaurantRanking/items/restaurantId",
+                        "title": "Restaurantid",
+                        "type": "integer",
+                        "examples": [
+                            2
+                        ],
+                        "default": 0
+                    },
+                    "rankingDate": {
+                        "$id": "#root/restaurantRanking/items/rankingDate",
+                        "title": "Rankingdate",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "14/08/2020"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "typeRankingCode": {
+                        "$id": "#root/restaurantRanking/items/typeRankingCode",
+                        "title": "Typerankingcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Non classé"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "typeClassmentCode": {
+                        "$id": "#root/restaurantRanking/items/typeClassmentCode",
+                        "title": "Typeclassmentcode",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Classement Gault et Millau"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "linkRestaurantRanking": {
+                        "$id": "#root/restaurantRanking/items/linkRestaurantRanking",
+                        "title": "Linkrestaurantranking",
+                        "type": "null",
+                        "default": null
+                    },
+                    "establishmentId": {
+                        "$id": "#root/restaurantRanking/items/establishmentId",
+                        "title": "Establishmentid",
+                        "type": "integer",
+                        "examples": [
+                            1
+                        ],
+                        "default": 0
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,482 @@
+{
+  "self": "https://api.lescollectionneurs.com/v1",
+  "links": [],
+  "routers": {
+    "establishment": [
+
+    ],
+    "giftbox": [
+      {
+        "link": "/giftboxes",
+        "method": "get",
+        "description": "La requête pour tous les infos des coffrets cadeaux",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "maxLength": 100,
+            "description": "Le nom du coffret cadeau"
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "maxLength": 20,
+            "description": "Le code du coffret cadeau"
+          },
+          {
+            "name": "countOfEstablishment",
+            "type": "integer",
+            "maxLength": 10,
+            "description": "Le nombre d'établissement par un coffret cadeau"
+          }
+        ]
+      },
+      {
+        "link": "/giftboxes/establishments[?fields={-giftCode,-establishment.id}&filters=giftbox.name^=notre,establishment.name$=&orders=-giftBox.price&paging={first|prev|next|last}]",
+        "method": "get",
+        "description": "La requête pour tous les établissements qui sont reliés aux coffrets cadeaux",
+        "fields": [
+          {
+            "name": "giftBoxes",
+            "type": "array",
+            "description": "La liste de coffrets cadeaux",
+            "fields": [
+              {
+                "name": "name",
+                "maxLength": 100,
+                "description": "Le nom du coffret cadeau",
+                "type": "string"
+              },
+              {
+                "name": "giftCode",
+                "type": "string",
+                "maxLength": 20,
+                "description": "Le code du coffret cadeau"
+              },
+              {
+                "name": "countOfEstablishment",
+                "type": "integer",
+                "maxLength": 10,
+                "description": "Le nombre d'établissement"
+              },
+              {
+                "name": "establishments",
+                "type": "array",
+                "description": "La liste d'établissements par un coffret cadeau",
+                "fields": [
+                  {
+                    "name": "id",
+                    "type": "integer",
+                    "maxLength": 11,
+                    "description": "L'id d'établissement"
+                  },
+                  {
+                    "name": "name",
+                    "type": "string",
+                    "maxLength": 100,
+                    "description": "Le nom d'établissement"
+                  },
+                  {
+                    "name": "giftBoxes",
+                    "type": "array",
+                    "description": "La liste de coffrets cadeaux d'établissement",
+                    "fields": [
+                      {
+                        "name": "giftBox",
+                        "type": "object",
+                        "description": "Le nom d'établissement",
+                        "fields": [
+                          {
+                            "name": "name",
+                            "maxLength": 100,
+                            "description": "Le nom du coffret cadeau",
+                            "type": "string"
+                          },
+                          {
+                            "name": "giftCode",
+                            "type": "string",
+                            "maxLength": 20,
+                            "description": "Le code du coffret cadeau"
+                          },
+                          {
+                            "name": "type",
+                            "type": "string",
+                            "maxLength": 20,
+                            "description": "gift_certificate or gift_box"
+                          },
+                          {
+                            "name": "description",
+                            "type": "string",
+                            "maxLength": 255,
+                            "description": "box description"
+                          },
+                          {
+                            "name": "price",
+                            "type": "integer",
+                            "maxLength": 11,
+                            "description": "box price in cents. If it is null, customer can choose the amount"
+                          },
+                          {
+                            "name": "currency",
+                            "type": "string",
+                            "maxLength": 10,
+                            "description": "box price currency"
+                          },
+                          {
+                            "name": "maxPerson",
+                            "type": "integer",
+                            "maxLength": 11,
+                            "description": "maximum number of people who can use the box"
+                          },
+                          {
+                            "name": "timeValidity",
+                            "type": "array",
+                            "description": "box pictograms list "
+                          },
+                          {
+                            "name": "picture",
+                            "type": "string",
+                            "maxLength": 255,
+                            "description": "box main picture"
+                          },
+                          {
+                            "name": "gallery",
+                            "type": "array",
+                            "description": "box pictures list"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishments?fields={-giftCode,-establishment.id}&filters=establishment.region=iledefrance&orders={order}&paging={first}",
+        "method": "get",
+        "description": "La requête pour l'infos des établissements d'un coffret cadeau",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "maxLength": 100,
+            "description": "Le nom de coffret cadeau"
+          },
+          {
+            "name": "giftCode",
+            "type": "string",
+            "maxLength": 20,
+            "description": "Le code de coffret cadeau"
+          },
+          {
+            "name": "countOfEstablishment",
+            "type": "integer",
+            "maxLength": 10,
+            "description": "Le nombre d'établissement"
+          },
+          {
+            "name": "establishments",
+            "type": "array",
+            "description": "La liste d'établissements du coffret cadeau",
+            "fields": [
+              {
+                "name": "id",
+                "type": "integer",
+                "maxLength": 11,
+                "description": "L'id d'établissement"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "maxLength": 100,
+                "description": "Le nom d'établissement"
+              },
+              {
+                "name": "giftBox",
+                "type": "object",
+                "description": "L'infos du coffret cadeau d'établissement",
+                "fields": [
+                  {
+                    "name": "name",
+                    "maxLength": 100,
+                    "description": "Le nom du coffret cadeau",
+                    "type": "string"
+                  },
+                  {
+                    "name": "giftCode",
+                    "type": "string",
+                    "maxLength": 20,
+                    "description": "Le code du coffret cadeau"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string",
+                    "maxLength": 20,
+                    "description": "gift_certificate or gift_box"
+                  },
+                  {
+                    "name": "description",
+                    "type": "string",
+                    "maxLength": 255,
+                    "description": "box description"
+                  },
+                  {
+                    "name": "price",
+                    "type": "integer",
+                    "maxLength": 11,
+                    "description": "box price in cents. If it is null, customer can choose the amount"
+                  },
+                  {
+                    "name": "currency",
+                    "type": "string",
+                    "maxLength": 10,
+                    "description": "box price currency"
+                  },
+                  {
+                    "name": "maxPerson",
+                    "type": "integer",
+                    "maxLength": 11,
+                    "description": "maximum number of people who can use the box"
+                  },
+                  {
+                    "name": "timeValidity",
+                    "type": "array",
+                    "description": "box pictograms list "
+                  },
+                  {
+                    "name": "picture",
+                    "type": "string",
+                    "maxLength": 255,
+                    "description": "box main picture"
+                  },
+                  {
+                    "name": "gallery",
+                    "type": "array",
+                    "description": "box pictures list"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "link": "/giftboxes/establishment/{id}?fields=&filters=&orders=&paging=",
+        "method": "get",
+        "description": "La requête pour l'infos des coffrets cadeaux d'un établissement",
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "maxLength": 11,
+            "description": "L'id d'établissment"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "maxLength": 100,
+            "description": "Le nom d'établissment"
+          },
+          {
+            "name": "giftBoxes",
+            "type": "array",
+            "description": "La liste des coffrets cadeaux de cet établissement",
+            "fields": [
+              {
+                "name": "giftBox",
+                "type": "object",
+                "description": "Le nom d'établissement",
+                "fields": [
+                  {
+                    "name": "name",
+                    "maxLength": 100,
+                    "description": "Le nom du coffret cadeau",
+                    "type": "string"
+                  },
+                  {
+                    "name": "giftCode",
+                    "type": "string",
+                    "maxLength": 20,
+                    "description": "Le code du coffret cadeau"
+                  },
+                  {
+                    "name": "type",
+                    "type": "string",
+                    "maxLength": 20,
+                    "description": "gift_certificate or gift_box"
+                  },
+                  {
+                    "name": "description",
+                    "type": "string",
+                    "maxLength": 255,
+                    "description": "box description"
+                  },
+                  {
+                    "name": "price",
+                    "type": "integer",
+                    "maxLength": 11,
+                    "description": "box price in cents. If it is null, customer can choose the amount"
+                  },
+                  {
+                    "name": "currency",
+                    "type": "string",
+                    "maxLength": 10,
+                    "description": "box price currency"
+                  },
+                  {
+                    "name": "maxPerson",
+                    "type": "integer",
+                    "maxLength": 11,
+                    "description": "maximum number of people who can use the box"
+                  },
+                  {
+                    "name": "timeValidity",
+                    "type": "array",
+                    "description": "box pictograms list "
+                  },
+                  {
+                    "name": "picture",
+                    "type": "string",
+                    "maxLength": 255,
+                    "description": "box main picture"
+                  },
+                  {
+                    "name": "gallery",
+                    "type": "array",
+                    "description": "box pictures list"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishment/{id}?field={name,-giftCode,-establishment.id,establishment.name,establishment.giftBox}&order={order}",
+        "method": "get",
+        "description": "La requête pour l'infos d'un coffret cadeau d'un établissement",
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "maxLength": 11,
+            "description": "L'id d'établissement"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "maxLength": 100,
+            "description": "Le nom d'établissement"
+          },
+          {
+            "name": "giftBox",
+            "type": "object",
+            "fields": [
+              {
+                "name": "name",
+                "maxLength": 100,
+                "description": "Le nom du coffret cadeau",
+                "type": "string"
+              },
+              {
+                "name": "giftCode",
+                "type": "string",
+                "maxLength": 20,
+                "description": "Le code du coffret cadeau"
+              },
+              {
+                "name": "type",
+                "type": "string",
+                "maxLength": 20,
+                "description": "gift_certificate or gift_box"
+              },
+              {
+                "name": "description",
+                "type": "string",
+                "maxLength": 255,
+                "description": "box description"
+              },
+              {
+                "name": "price",
+                "type": "integer",
+                "maxLength": 11,
+                "description": "box price in cents. If it is null, customer can choose the amount"
+              },
+              {
+                "name": "currency",
+                "type": "string",
+                "maxLength": 10,
+                "description": "box price currency"
+              },
+              {
+                "name": "maxPerson",
+                "type": "integer",
+                "maxLength": 11,
+                "description": "maximum number of people who can use the box"
+              },
+              {
+                "name": "timeValidity",
+                "type": "array",
+                "description": "box pictograms list "
+              },
+              {
+                "name": "picture",
+                "type": "string",
+                "maxLength": 255,
+                "description": "box main picture"
+              },
+              {
+                "name": "gallery",
+                "type": "array",
+                "description": "box pictures list"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "link": "/giftbox/{giftCode}",
+        "method": "post",
+        "description": "La requête pour créer un nouveau coffret cadeau"
+      },
+      {
+        "link": "/giftbox/{giftCode}",
+        "method": "put",
+        "description": "La requête pour tout modifier un coffret cadeau"
+      },
+      {
+        "link": "/giftbox/{giftCode}",
+        "method": "patch",
+        "description": "La requête pour modifier partielle un coffret cadeau"
+      },
+      {
+        "link": "/giftbox/{giftCode}",
+        "method": "delete",
+        "description": "La requête pour supprimer un coffret cadeau"
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishment/{id}",
+        "method": "post",
+        "description": "La requête pour créer un nouveau coffret cadeau d'un établissement"
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishment/{id}",
+        "method": "put",
+        "description": "La requête pour tout modifier du coffret cadeau d'un établissement"
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishment/{id}",
+        "method": "patch",
+        "description": "La requête pour modifier partielle du coffret cadeau d'un établissement"
+      },
+      {
+        "link": "/giftbox/{giftCode}/establishment/{id}",
+        "method": "delete",
+        "description": "La requête pour supprimer un coffret cadeau d'un établissement"
+      }
+    ]
+  }
+}

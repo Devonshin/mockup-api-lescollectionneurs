@@ -1,0 +1,519 @@
+<html lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,600,700" rel="stylesheet"/>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/jsonview.bundle.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <title>MOCKUP API</title>
+  </head>
+  <body>
+    <div class="s009">
+      <form autocomplete="off">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 fixed-top">
+            <div class="inner-form">
+              <div class="basic-search advance-search" style="min-height: 190px;">
+                <span class="desc">L'url requête</span>
+                <div class="input-field">
+                  <span>GET</span>
+                  <span id="interfaceUrl" style="margin-left: 20px;font-size: 1.1rem;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-xs-7 col-md-7 view-area">
+            <div class="inner-form" >
+            <div class="advance-search" id="search-criteria-area">
+              <span class="desc">Critère de recherche
+                <em style="font-size: 13px; color: darkblue"> * SI aucun critère sélectionné la recherche inclura tous les critères, </em>
+                <span class="float-right">
+                  <button class="btn btn-dark btn-sm" type="button" data-toggle="collapse"
+                          data-target=".criterias" aria-expanded="true"
+                          aria-controls="criterias"></button>
+                </span>
+              </span>
+              <div class="row criterias show">
+
+                <div class="col-md-6 col-xs-12">
+
+                  <label for="idEstablishment">ID d'Établissement</label>
+                  &nbsp;
+                  <input id="idEstablishment" name="establishmentId" type="text" data-target="establishment"
+                         placeholder="ID d'établissement" style="width: 30%;" data-param-name="estblshmtId"/>
+                </div>
+                <div class="col-md-6 col-xs-12">
+
+                  <label for="nameEstablishment">Nom d'Établissement</label>
+                  &nbsp;
+                  <input id="nameEstablishment" name="name" type="text" data-target="establishmentInfo"
+                         placeholder="Nom d'établissement" style="width: 39%;" data-param-name="estblshmtName"/>
+                </div>
+                <br>
+                <div class="col-md-3 col-xs-6">
+                  <label for="typeEstablishment">Type Établissement</label>
+                  <select multiple name="typeEstablishmentCode" data-target="establishment" data-param-name="estblshmtType"
+                          class="custom-select"  id="typeEstablishment" size="6">
+                    <option title="" value="Maison d’hôtes - Restaurant">Maison d’hôtes - Restaurant</option>
+                    <option title="" value="Hôtel">Hôtel</option>
+                    <option title="" value="Bistrot/Brasserie">Bistrot/Brasserie</option>
+                    <option title="" value="Maison d'hôtes">Maison d'hôtes</option>
+                    <option title="" value="Hôtel-Restaurant">Hôtel-Restaurant</option>
+                    <option title="" value="Restaurant">Restaurant</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <label for="typeEquipement">Type Équipement</label>
+                  <select name="typeEquipmentCode" class="custom-select" multiple data-param-name="equipmtType"
+                          id="typeEquipement" size="6" data-target="equipment" >
+                    <option title="" value="Parking">Parking</option>
+                    <option title="" value="Garage">Garage</option>
+                    <option title="" value="Climatisation">Climatisation</option>
+                    <option title="" value="Borne de chargement pour voiture électrique">Borne de chargement pour voiture électrique</option>
+                    <option title="" value="Super Chargeur">Super Chargeur</option>
+                    <option title="" value="Chargeur Classique">Chargeur Classique</option>
+                    <option title="" value="Bar">Bar</option>
+                    <option title="" value="Bar Lounge">Bar Lounge</option>
+                    <option title="" value="Ascenseur">Ascenseur</option>
+                    <option title="" value="Wifi">Wifi</option>
+                    <option title="" value="Terrasse">Terrasse</option>
+                    <option title="" value="Salle de Jeux">Salle de Jeux</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+
+                  <label for="roomEquipment">Équipement de la Chambre</label>
+                  <select name="typeRoomEquipmentCode" class="custom-select" multiple data-param-name="roomEquipmtType"
+                          id="roomEquipment" size="6" data-target="roomEquipment">
+                    <option title="" value="Coffre-fort dans la chambre">Coffre-fort dans la chambre</option>
+                    <option title="" value="Télévision">Télévision</option>
+                    <option title="" value="Mini bar">Mini bar</option>
+                    <option title="" value="Baignoire balnéo">Baignoire balnéo</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="typeEventActivity">Type Activité du Séminaire</label>
+                  <select name="typeEventActivityCode" class="custom-select" data-param-name="eventActCode"
+                          multiple id="typeEventActivity" size="6" data-target="eventActivity">
+                    <option title="" value="Land Art">Land Art</option>
+                    <option title="" value="Massage">Massage</option>
+                    <option title="" value="Peinture">Peinture</option>
+                    <option title="" value="Photographie">Photographie</option>
+                    <option title="" value="Yoga">Yoga</option>
+                    <option title="" value="Construction de tonneaux">Construction de tonneaux</option>
+                    <option title="" value="Construction radeaux">Construction radeaux</option>
+                    <option title="" value="Jet ski">Jet ski</option>
+                    <option title="" value="Paddle">Paddle</option>
+                    <option title="" value="Pêche">Pêche</option>
+                    <option title="" value="Pédalo">Pédalo</option>
+                    <option title="" value="Plongée">Plongée</option>
+                    <option title="" value="Ski nautique">Ski nautique</option>
+                    <option title="" value="Water ball">Water ball</option>
+                    <option title="" value="Oenotourisme">Oenotourisme</option>
+                    <option title="" value="Accrobranche">Accrobranche</option>
+                    <option title="" value="Air hockey">Air hockey</option>
+                    <option title="" value="Badminton">Badminton</option>
+                    <option title="" value="Ball trap">Ball trap</option>
+                    <option title="" value="Bobsleigh">Bobsleigh</option>
+                    <option title="" value="Boulodrome">Boulodrome</option>
+                    <option title="" value="Char à voile">Char à voile</option>
+                    <option title="" value="Chasse">Chasse</option>
+                    <option title="" value="Chasse au trésor">Chasse au trésor</option>
+                    <option title="" value="Fauconnerie">Fauconnerie</option>
+                    <option title="" value="Mini-golf">Mini-golf</option>
+                    <option title="" value="Paintball">Paintball</option>
+                    <option title="" value="Parapente">Parapente</option>
+                    <option title="" value="Parcours santé">Parcours santé</option>
+                    <option title="" value="Pelote basque">Pelote basque</option>
+                    <option title="" value="Pétanque">Pétanque</option>
+                    <option title="" value="Rugby">Rugby</option>
+                    <option title="" value="Segway">Segway</option>
+                    <option title="" value="Ski alpin">Ski alpin</option>
+                    <option title="" value="Spéléologie">Spéléologie</option>
+                    <option title="" value="Stage de survie">Stage de survie</option>
+                    <option title="" value="Tyrolienne">Tyrolienne</option>
+                    <option title="" value="Découverte de la truffe">Découverte de la truffe</option>
+                    <option title="" value="Démonstration de cavage">Démonstration de cavage</option>
+                    <option title="" value="Balade en Chiens de traîneaux">Balade en Chiens de traîneaux</option>
+                    <option title="" value="Balade en Calèche">Balade en Calèche</option>
+                    <option title="" value="Excursion en ville">Excursion en ville</option>
+                    <option title="" value="Excursion Safari">Excursion Safari</option>
+                    <option title="" value="Journée manade">Journée manade</option>
+                    <option title="" value="Motoneige">Motoneige</option>
+                    <option title="" value="Baby-foot">Baby-foot</option>
+                    <option title="" value="Billard">Billard</option>
+                    <option title="" value="Casino">Casino</option>
+                    <option title="" value="Fléchette">Fléchette</option>
+                    <option title="" value="Jeux gonflables">Jeux gonflables</option>
+                    <option title="" value="Ping-pong">Ping-pong</option>
+                    <option title="" value="Puissance 4 géant">Puissance 4 géant</option>
+                    <option title="" value="Balade en 2CV">Balade en 2CV</option>
+                    <option title="" value="Karting">Karting</option>
+                    <option title="" value="Stage pilotage">Stage pilotage</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+              </div>
+
+              <div class="row criterias show">
+
+                <div class="col-md-3 col-xs-6">
+                  <label>Prix du Restaurant</label>
+                  <br>
+                  <label for="minPriceMenu" style="width: 44%">Min Prix</label>
+                  <label for="maxPriceMenu" style="width: 44%">Max Prix</label>
+                  <select name="minPriceMenu" class="custom-select" data-param-name="restoMinPrc"
+                          id="minPriceMenu" size="4" data-target="restaurantPrice" style="width: 44%">
+                    <option title="" value="1">1 €</option>
+                    <option title="" value="10">10 €</option>
+                    <option title="" value="20">20 €</option>
+                    <option title="" value="30">30 €</option>
+                    <option title="" value="50">50 €</option>
+                    <option title="" value="100">100 €</option>
+                  </select>
+                  <select name="maxPriceMenu" class="custom-select" data-param-name="restoMaxPrc"
+                          id="maxPriceMenu" size="4" data-target="restaurantPrice" style="width: 44%">
+                    <option title="" value="5">5 €</option>
+                    <option title="" value="10">10 €</option>
+                    <option title="" value="30">30 €</option>
+                    <option title="" value="50">50 €</option>
+                    <option title="" value="100">100 €</option>
+                    <option title="" value="1000">1000 €</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="restaurantService">Service du Restaurant</label>
+                  <select name="typeRestaurantServiceCode" class="custom-select" data-param-name="restoService"
+                          multiple id="restaurantService" size="6" data-target="restaurantService">
+                    <option title="" value="ente à emporter">Vente à emporter</option>
+                    <option title="" value="Salon privatisable">Salon privatisable</option>
+                    <option title="" value="menu enfant">menu enfant</option>
+                    <option title="" value=">Voiturier">Voiturier</option>
+                    <option title="" value="table hôte">table hôte</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                  <label for="environment">Type Environement</label>
+                  <select name="typeEnvironmentCode" class="custom-select" data-param-name="environment"
+                          multiple id="environment" size="6" data-target="environment">
+                    <option title="" value="Parc (+2 ha)">Parc (+2 ha)</option>
+                    <option title="" value="Jardin">Jardin</option>
+                    <option title="" value="Potager">Potager</option>
+                    <option title="" value="Plage privé (mer,rivière,lac)">Plage privé (mer,rivière,lac)</option>
+
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="environment">Type Giftbox</label>
+                  <select name="giftCode" class="custom-select" data-param-name="giftbox"
+                          multiple id="giftbox" size="6" data-target="giftbox">
+                    <option title="" value="CC_NUIT_NOU">La nuit est à nous</option>
+                    <option title="" value="CC_NOTRE_TETE">Notre tête-à-tête</option>
+                    <option title="" value="CC_ESC_GOUR">Notre escale gourmande</option>
+                    <option title="" value="CC_ECH_EPI">Notre échappée épicurienne</option>
+                    <option title="" value="CC_DEST_SPA">Notre destination douceur</option>
+                    <option title="" value="CC_NUI_HORS_TPS">Nos deux nuits hors du temps</option>
+                    <option title="" value="CC_GRAN_JEU">Le grand jeu</option>
+                    <option title="" value="CC_MOM_GOURM">Notre moment gourmand</option>
+                    <option title="" value="CC_ESC_SHOP">Notre escapade Shopping à Paris</option>
+
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+              </div>
+
+              <span class="desc criterias show">Page</span>
+
+              <div class="row criterias show">
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="pageSize">Data per Page</label>
+                  <select name="pageSize" class="custom-select" id="pageSize" size="6" data-param-name="pageSize">
+                    <option title="" value="10" selected>10</option>
+                    <option title="" value="20">20</option>
+                    <option title="" value="30">30</option>
+                    <option title="" value="50">50</option>
+                    <option title="" value="100">100</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="pageNo">Page No</label>
+                  <select name="pageNo" class="custom-select" id="pageNo" size="6" data-param-name="pageNo">
+                    <option title="" value="1" selected>1</option>
+                    <option title="" value="2">2</option>
+                    <option title="" value="3">3</option>
+                    <option title="" value="4">4</option>
+                    <option title="" value="5">5</option>
+                    <option title="" value="" disabled>...</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6 col-xs-12">
+                  <button type="reset"
+                          style="margin-top: 40px;width: 100%;line-height: 4em;font-size: 24px;font-weight: bold; color: #6b6b75;">
+                    Refresh
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <br>
+
+            <div class="advance-search" id="field-area">
+
+              <span class="desc">Champs souhaités
+                <em style="font-size: 13px; color: darkblue"> * Si aucun champ souhaité n'est sélectionné, tous les champs seront visibles. Si un ou plusieurs champ souhaité est sélectionné, seuls les champs sélectionnés seront visibles. </em>
+                <span class="float-right">
+                  <button class="btn btn-dark btn-sm collapsed" type="button" data-toggle="collapse"
+                          data-target="#fields" aria-expanded="true"
+                          aria-controls="fields"></button>
+                </span>
+              </span>
+
+              <div class="row collapse show" id="fields">
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="basicEstablishment">La BD des établissements</label>
+                  <select name="establishment" class="custom-select" multiple data-param-name="fdEstb"
+                          id="basicEstablishment" size="10" data-target="establishments">
+                    <option title="" value="name">Nom</option>
+                    <option title="" value="establishmentId">establishmentId</option>
+                    <option title="" value="xenonId">xenonId</option>
+                    <option title="" value="prospectId">prospectId</option>
+                    <option title="" value="typeEstablishmentCode">typeEstablishmentCode</option>
+                    <option title="" value="typeTableId">typeTableId</option>
+                    <option title="" value="ville">ville</option>
+                    <option title="" value="region">region</option>
+                    <option title="" value="visibility">visibility</option>
+                    <option title="" value="statusCode">statusCode</option>
+                    <option title="" value="active">active</option>
+                    <option title="" value="guide">guide</option>
+                    <option title="" value="siteWeb">siteWeb</option>
+                    <option title="" value="siteEvent">siteEvent</option>
+                    <option title="" value="btob">btob</option>
+                    <option title="" value="fidelity">fidelity</option>
+                    <option title="" value="isNew">isNew</option>
+                    <option title="" value="modifiedAt">modifiedAt</option>
+                    <option title="" value="createdAt">createdAt</option>
+                    <option title="" value="updatedAt">updatedAt</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="infoEquipment">Équipement</label>
+                  <select name="infoEquipment" class="custom-select" multiple data-param-name="fdEquip"
+                          id="infoEquipment" size="10" data-target="equipment">
+                    <option title="" value="typeEquipmentCode">Code d'Équipement</option>
+                    <option title="" value="available">Disponible</option>
+                    <option title="" value="distance">Distance</option>
+                    <option title="" value="onSite">Sur place</option>
+                    <option title="" value="description">Description</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="infoEvent">Séminaire</label>
+                  <select name="infoEvent" class="custom-select" multiple data-param-name="fdEvent"
+                          id="infoEvent" size="10" data-target="event">
+                    <option title="" value="eventFaciliteAcces">Homologation handicapé</option>
+                    <option title="" value="eventCharter">Eligible Event</option>
+                    <option title="" value="hallNumberMin">Nombre de salle minimum</option>
+                    <option title="" value="hallNumberMax">Nombre de salle maximum</option>
+                    <option title="" value="maxTotalSpace">Espace total maximum m2</option>
+                    <option title="" value="minTotalSpace">Espace total minimum m2</option>
+                    <option title="" value="meetingCapacityMax">Max de places en capacité réunion</option>
+                    <option title="" value="dinerCapacityMax">Max de places en capacité dinner</option>
+                    <option title="" value="cabaretCapacityMax">Max de places en capacité cabaret</option>
+                    <option title="" value="description">Description</option>
+                    <optgroup label="Chambre" data-target="eventHall" data-param-name="fdEvtRoom">
+                      <option title="" value="name">Nom de la Chambre</option>
+                      <option title="" value="available">Disponible</option>
+                      <option title="" value="totalSpace">Espace total m2</option>
+                      <option title="" value="daylight">Lumière du jours</option>
+                      <option title="" value="dissociatedAccess">Accès dissocié</option>
+                      <option title="" value="airConditionedRoom">Salle climatisée</option>
+                      <option title="" value="concealableRoom">Salle occultable</option>
+                      <option title="" value="dinnerPossible">Diner possible</option>
+                      <option title="" value="lengthWidth">Longueur x Largeur</option>
+                      <option title="" value="description">Description</option>
+                    </optgroup>
+                    <optgroup label="Residentiel" data-target="eventResidential" data-param-name="fdEvtResid">
+                      <option title="" value="maxRoom">Chambre maximum</option>
+                      <option title="" value="singleCapacity">Single Capacité</option>
+                      <option title="" value="twinCapacity">Twin Capacité</option>
+                    </optgroup>
+                    <optgroup label="Activité" data-target="eventActivity" data-param-name="fdEvtActvt">
+                      <option title="" value="typeEventActivityCode">Type Activité du Seminaire</option>
+                      <option title="" value="groupActivityCode">Code Activité groupe</option>
+                      <option title="" value="available">Disponible</option>
+                      <option title="" value="chargeable">Payant</option>
+                      <option title="" value="amount">Montant</option>
+                      <option title="" value="outdoors">Activités en plein air</option>
+                      <option title="" value="teamBuilding">Team Building</option>
+                      <option title="" value="description">Description</option>
+                    </optgroup>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="infoRestaurant">Restaurant</label>
+                  <select name="infoRestaurant" class="custom-select" multiple data-param-name="fdResto"
+                          id="infoRestaurant" size="10" data-target="restaurant">
+                    <option title="" value="name">Nom</option>
+                    <option title="" value="maxSeatedCapacity">Capacité assise maximum</option>
+                    <option title="" value="restarantInLcGuide">Présence dans Guide Les collectionneurs</option>
+                    <option title="" value="nbrWineBiodynamique">Combien de références de vins bio/biodynamique</option>
+                    <optgroup label="Prix du Restaurant" data-target="restaurantPrice" data-param-name="fdRestoPrix">
+                      <option title="" value="averageCartePrice">Tarif carte moyen</option>
+                      <option title="" value="minPriceMenu">Tarif Menu Minimum</option>
+                      <option title="" value="maxPriceMenu">Tarif Menu Maximum</option>
+                      <option title="" value="halfPensionPrice">Tarif demi-pension</option>
+                      <option title="" value="completePensionPrice">Tarif Pension complète</option>
+                    </optgroup>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="infoRoom">Chambre</label>
+                  <select name="infoRoom" class="custom-select" multiple data-param-name="fdRoom"
+                          id="infoRoom" size="10" data-target="roomEquipment">
+                    <option title="" value="typeRoomEquipmentCode">Type Équipemente de la Chambre </option>
+                    <option title="" value="available">Disponible</option>
+
+                    <optgroup label="Prix de la Chambre" data-target="roomPrice" data-param-name="fdRoomPrix">
+                      <option title="" value="numberDouble">Nombre Double</option>
+                      <option title="" value="numberTwin">Nombre Twin</option>
+                      <option title="" value="minSingleRoomPrice">Tarif Minimum Single</option>
+                      <option title="" value="maxSingleRoomPrice">Tarif Maximum Single</option>
+                      <option title="" value="minDoubleRoomPrice">Tarif Minimum Double</option>
+                      <option title="" value="maxDoubleRoomPrice">Tarif Maximum Double</option>
+                      <option title="" value="minSuiteRoomPrice">Tarif Minimum Suite</option>
+                      <option title="" value="maxSuiteRoomPrice">Tarif Maximum Suite</option>
+                      <option title="" value="numberSuite">Nombre Suite</option>
+                      <option title="" value="numberSingle">Nombre Single</option>
+                      <option title="" value="breakfastInclude">Petit déjeuner Inclus</option>
+                      <option title="" value="typeBreakfastCode">Type Petit déjeuner</option>
+                      <option title="" value="breakfastInclude">Petit déjeuner Inclus</option>
+                    </optgroup>
+
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="infoEnvironement">Environement</label>
+                  <select name="infoEnvironement" class="custom-select" multiple data-param-name="fdEnv"
+                          id="infoEnvironement" size="10" data-target="environment">
+                    <option title="" value="typeEnvironmentCode">Type Environement</option>
+                    <option title="" value="area">Superficie</option>
+                    <option title="" value="available">Disponible</option>
+                    <option title="" value="description">Description</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                  <label for="giftboxfd">GiftBox</label>
+                  <select name="giftbox" class="custom-select" multiple data-param-name="fdGiftbox"
+                          id="giftboxfd" size="10" data-target="giftbox">
+                    <option title="" value="giftCode">giftCode</option>
+                    <option title="" value="contacter">contacter</option>
+                    <option title="" value="telNumber">telNumber</option>
+                    <option title="" value="faxNumber">faxNumber</option>
+                    <option title="" value="ville">ville</option>
+                    <option title="" value="roomType">roomType</option>
+                    <option title="" value="roomPrice">roomPrice</option>
+                    <option title="" value="lang">lang</option>
+                    <option title="" value="breakfastType">breakfastType</option>
+                    <option title="" value="breakfastPrice">breakfastPrice</option>
+                    <option title="" value="restaurantName">restaurantName</option>
+                    <option title="" value="menuName">menuName</option>
+                    <option title="" value="numberDish">numberDish</option>
+                    <option title="" value="priceDish">priceDish</option>
+                    <option title="" value="drinkType">drinkType</option>
+                    <option title="" value="drinkPrice">drinkPrice</option>
+                    <option title="" value="toLunch">toLunch</option>
+                    <option title="" value="attention1">attention1</option>
+                    <option title="" value="attention2">attention2</option>
+                    <option title="" value="attention3">attention3</option>
+                    <option title="" value="response">response</option>
+                    <option title="" value="zEngage">zEngage</option>
+                    <option title="" value="toDinner">toDinner</option>
+                    <option title="" value="treatmentName">treatmentName</option>
+                    <option title="" value="experienceDescription">experienceDescription</option>
+                    <option title="" value="experiencePrice">experiencePrice</option>
+                    <option title="" value="spaInformation">spaInformation</option>
+                    <option title="" value="spaPrice">spaPrice</option>
+                    <option title="" value="closeDate">closeDate</option>
+                    <option title="" value="dateModified">dateModified</option>
+                    <option title="" value="createdAt">createdAt</option>
+                  </select>
+                  <span class="desc">(ctrl/cmd) + left click for multiple select</span>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                  <button type="reset"
+                          style="margin-top: 40px;width: 100%;line-height: 6.7em;font-size: 24px;font-weight: bold; color: #6b6b75;">
+                    Refresh
+                  </button>
+                </div>
+
+              </div>
+            </div>
+            <br>
+
+          </div></div>
+          <div class="col-xs-5 col-md-5 view-area"><div class="inner-form" >
+
+            <div class="result-area advance-search tab-content">
+
+              <span class="desc">Response data</span>
+
+              <ul class="nav nav-tabs" id="responseTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="plain-tab" data-toggle="tab" href="#jsonPlainView" role="tab" aria-controls="jsonPlainView" aria-selected="true">Plain View</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="tree-tab" data-toggle="tab" href="#jsonTreeView" role="tab" aria-controls="jsonTreeView" aria-selected="false">Tree View</a>
+                </li>
+              </ul>
+
+              <div class="json-view tab-pane fade show active" id="jsonPlainView" role="tabpanel" aria-labelledby="jsonPlainView-tab" style=" max-height: 1190px;overflow: auto;width: 100%;"></div>
+              <div class="tree-view tab-pane fade" id="jsonTreeView"  role="tabpanel" aria-labelledby="jsonTreeView-tab" style=" max-height: 1190px;overflow: auto;width: 100%;"></div>
+
+            </div>
+          </div></div>
+
+        </div>
+
+      </form>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jsonview.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

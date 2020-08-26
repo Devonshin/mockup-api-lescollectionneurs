@@ -1,0 +1,38 @@
+{
+    "CC_MOM_GOURM": {
+        "libelle": "Notre moment gourmand",
+        "description": null
+    },
+    "CC_NUIT_NOU": {
+        "libelle": "La nuit est à nous",
+        "description": null
+    },
+    "CC_NOTRE_TETE": {
+        "libelle": "Notre tête-à-tête",
+        "description": null
+    },
+    "CC_ESC_GOUR": {
+        "libelle": "Notre escale gourmande",
+        "description": null
+    },
+    "CC_ECH_EPI": {
+        "libelle": "Notre échappée épicurienne",
+        "description": null
+    },
+    "CC_DEST_SPA": {
+        "libelle": "Notre destination douceur",
+        "description": null
+    },
+    "CC_ESC_SHOP": {
+        "libelle": "Notre escapade Shopping à Paris",
+        "description": null
+    },
+    "CC_NUI_HORS_TPS": {
+        "libelle": "Nos deux nuits hors du temps",
+        "description": null
+    },
+    "CC_GRAN_JEU": {
+        "libelle": "Le grand jeu",
+        "description": null
+    }
+}
