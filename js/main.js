@@ -118,6 +118,7 @@
 
         $('#pageNo').val('1');
         $('#pageSize').val('10');
+        
         let _t = this;
 
         idTimeidx = setTimeout(function () {
@@ -145,26 +146,24 @@
 
       $($nameEstablishment).on('keyup', function () {
 
-        $(this).closest('div.advance-search').find('input#idEstablishment, select:not([name^=page])').val('');
+        $(this).closest('div.advance-search').find('input#idEstablishment').val('');
 
         clearTimeout(nameTimeidx);
-        let _t = this;
+
         $('#pageNo').val('1');
         $('#pageSize').val('10');
+
+        let _t = this;
 
         nameTimeidx = setTimeout(function () {
           if ($.trim(_t.value) !== '') {
 
-            $('#search-criteria-area').find('select:not([name^=page])').attr('disabled', true);
             $($idEstablishment).attr('disabled', true);
-
             callApi(_t);
 
           } else {
 
-            $('#search-criteria-area').find('select:not([name^=page])').attr('disabled', false);
             $($idEstablishment).attr('disabled', false);
-
             callApi();
 
           }
@@ -172,7 +171,7 @@
 
       });
 
-      function converUrl ($select) {
+      function convertUrl ($select) {
 
         let $opts = $select.find('option');
         let $selected = $opts.filter(':selected');
@@ -209,7 +208,7 @@
         return '';
       }
 
-      function converUrlField ($select) {
+      function convertUrlField ($select) {
 
         let $opts = $select.find('option');
         let $selected = $opts.filter(':selected');
@@ -428,8 +427,6 @@
         }
 
         $jsonTreeArea.removeClass('loaded');
-        $jsonViewArea.animate({scrollTop: 0});
-
       }
 
       function findEstablishmentByVal (v) {
@@ -465,13 +462,17 @@
 
         let $selects = v ? findEstablishmentByVal(v).add($($critArea).find('select[name^=page]')) : $($critArea).find('select');
 
+        if (v && v.name === 'name') {
+          $selects = $selects.add($($critArea).find('select'));
+        }
+
         $selects.each(function (idx, select) {
 
           let $s = $(select);
 
           foundEsta = findEstablishment($s);
 
-          url += converUrl($s);
+          url += convertUrl($s);
 
           if ($s.attr('name') === 'minPriceMenu' && $selects.filter('#maxPriceMenu').find(':selected').length) {
             return;
@@ -569,7 +570,7 @@
 
         $($fieldArea).find('select').each(function (idx, select) {
           let $s = $(select);
-          url += converUrlField($s);
+          url += convertUrlField($s);
         });
 
         return {
@@ -591,6 +592,8 @@
         $($nameEstablishment).attr('disabled', false);
 
         callApi();
+
+        $($jsonViewArea).animate({scrollTop: 0});
 
         return false;
 

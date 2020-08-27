@@ -4,7 +4,6 @@
         "xenonId": 5,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Domaine du Roncemay  Hôtel & GOLF",
         "ville": "Chassy",
@@ -18,7 +17,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "14/08/2020 11:03:44",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": "22/07/2020 14:58:12"
@@ -28,7 +26,6 @@
         "xenonId": 11,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Pray",
         "ville": "Amboise",
@@ -42,7 +39,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "14/08/2020 11:03:46",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -52,7 +48,6 @@
         "xenonId": 31,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Auberge de Cassagne & SPA",
         "ville": "Avignon-Le Pontet",
@@ -66,7 +61,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -76,7 +70,6 @@
         "xenonId": 42,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Mas de l'Oulivié",
         "ville": "Les Baux-de-Provence",
@@ -90,7 +83,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -100,7 +92,6 @@
         "xenonId": 46,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Sully",
         "ville": "Bayeux",
@@ -114,7 +105,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -124,7 +114,6 @@
         "xenonId": 63,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Château du Clair de Lune",
         "ville": "Biarritz",
@@ -138,7 +127,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -148,7 +136,6 @@
         "xenonId": 68,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Les Maisons de Concasty",
         "ville": "Boisset",
@@ -162,7 +149,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -172,7 +158,6 @@
         "xenonId": 75,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel du Château de la Tour",
         "ville": "Béguey-Cadillac",
@@ -186,7 +171,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -196,7 +180,6 @@
         "xenonId": 96,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Hôtel le Mas Trilles",
         "ville": "Céret",
@@ -210,7 +193,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -220,7 +202,6 @@
         "xenonId": 110,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château du Clos de la Ribaudière & SPA",
         "ville": "Chasseneuil-du-Poitou",
@@ -234,7 +215,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -244,7 +224,6 @@
         "xenonId": 112,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hostellerie du Château des Fines Roches",
         "ville": "Châteauneuf-du-Pape",
@@ -258,7 +237,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -268,7 +246,6 @@
         "xenonId": 132,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Domaine de Villeray & SPA",
         "ville": "Condeau",
@@ -282,7 +259,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -292,7 +268,6 @@
         "xenonId": 144,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Moulin du Landion Hôtel & SPA",
         "ville": "Dolancourt",
@@ -306,7 +281,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -316,7 +290,6 @@
         "xenonId": 145,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "L'Esplanade",
         "ville": "Domme",
@@ -330,7 +303,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -340,7 +312,6 @@
         "xenonId": 146,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Terrasse",
         "ville": "Douai",
@@ -354,7 +325,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -364,7 +334,6 @@
         "xenonId": 149,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château d'Étoges",
         "ville": "Étoges",
@@ -378,7 +347,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -388,7 +356,6 @@
         "xenonId": 151,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Castel Brando Hôtel & SPA ",
         "ville": "Erbalunga-Brando",
@@ -402,7 +369,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -412,7 +378,6 @@
         "xenonId": 154,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Donjon - Domaine Saint Clair",
         "ville": "Étretat",
@@ -426,7 +391,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -436,7 +400,6 @@
         "xenonId": 169,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Grand Hôtel & SPA et son Chalet",
         "ville": "Gérardmer",
@@ -450,7 +413,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -460,7 +422,6 @@
         "xenonId": 171,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Castel de Très Girard",
         "ville": "Morey-Saint-Denis",
@@ -474,7 +435,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -484,7 +444,6 @@
         "xenonId": 172,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Saulon",
         "ville": "Saulon-la-Rue",
@@ -498,7 +457,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -508,7 +466,6 @@
         "xenonId": 179,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château et Spa de la Commanderie",
         "ville": "Eybens",
@@ -522,7 +479,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -532,7 +488,6 @@
         "xenonId": 181,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Mas de la Crémaillère",
         "ville": "Gréoux-les-Bains",
@@ -546,7 +501,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -556,7 +510,6 @@
         "xenonId": 184,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Clair de la Plume",
         "ville": "Grignan",
@@ -570,7 +523,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -580,7 +532,6 @@
         "xenonId": 189,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel de la Cognette",
         "ville": "Issoudun",
@@ -594,7 +545,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -604,7 +554,6 @@
         "xenonId": 193,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Carlina",
         "ville": "La Clusaz",
@@ -618,7 +567,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -628,7 +576,6 @@
         "xenonId": 195,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "L'Hostellerie du Château les Muids",
         "ville": "La Ferté-Saint-Aubin",
@@ -642,7 +589,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -652,7 +598,6 @@
         "xenonId": 213,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "L'Oustau Camarguen",
         "ville": "Le Grau-du-Roi",
@@ -666,7 +611,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -676,7 +620,6 @@
         "xenonId": 222,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel-Restaurant Ricordeau",
         "ville": "Loué",
@@ -690,7 +633,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -700,7 +642,6 @@
         "xenonId": 229,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hostellerie Sarrasine",
         "ville": "Replonges",
@@ -714,7 +655,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -724,7 +664,6 @@
         "xenonId": 232,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Métairie",
         "ville": "Mauzac-et-Grand-Castang",
@@ -738,7 +677,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -748,7 +686,6 @@
         "xenonId": 255,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Bastide de Moustiers",
         "ville": "Moustiers-Sainte-Marie",
@@ -762,7 +699,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -772,7 +708,6 @@
         "xenonId": 290,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Le Clos Médicis",
         "ville": "Paris",
@@ -786,7 +721,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -796,7 +730,6 @@
         "xenonId": 295,
         "prospectId": 0,
         "typeEstablishmentCode": "R",
-        
         "typeTableId": 0,
         "name": "Alain Ducasse au Plaza Athénée",
         "ville": "Paris",
@@ -810,7 +743,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -820,7 +752,6 @@
         "xenonId": 297,
         "prospectId": 0,
         "typeEstablishmentCode": "R",
-        
         "typeTableId": 0,
         "name": "La Grande Cascade",
         "ville": "Paris",
@@ -834,7 +765,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -844,7 +774,6 @@
         "xenonId": 319,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Montrachet",
         "ville": "Puligny-Montrachet",
@@ -858,7 +787,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -868,7 +796,6 @@
         "xenonId": 323,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hostellerie le Castellas",
         "ville": "Collias",
@@ -882,7 +809,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -892,7 +818,6 @@
         "xenonId": 330,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Terrasse",
         "ville": "Meyronne",
@@ -906,7 +831,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -916,7 +840,6 @@
         "xenonId": 338,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Grand Hôtel de Solesmes",
         "ville": "Solesmes",
@@ -930,7 +853,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -940,7 +862,6 @@
         "xenonId": 358,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "La Malouinière des Longchamps",
         "ville": "Saint-Jouan-des-Guérets",
@@ -954,7 +875,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -964,7 +884,6 @@
         "xenonId": 360,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Maison Tirel Guérin - restaurant La Gouesnière",
         "ville": "Saint-Méloir-des-Ondes",
@@ -978,7 +897,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -988,7 +906,6 @@
         "xenonId": 362,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "La Grande Bastide",
         "ville": "Saint-Paul-de-Vence",
@@ -1002,7 +919,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1012,7 +928,6 @@
         "xenonId": 367,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Le Vallon de Valrugues & SPA",
         "ville": "Saint-Rémy-de-Provence",
@@ -1026,7 +941,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1036,7 +950,6 @@
         "xenonId": 368,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château des Alpilles",
         "ville": "Saint-Rémy-de-Provence",
@@ -1050,7 +963,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1060,7 +972,6 @@
         "xenonId": 371,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Belle Aurore",
         "ville": "Sainte-Maxime",
@@ -1074,7 +985,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1084,7 +994,6 @@
         "xenonId": 378,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Arraya",
         "ville": "Sare",
@@ -1098,7 +1007,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1108,7 +1016,6 @@
         "xenonId": 384,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Sissi",
         "ville": "Sassetot-le-Mauconduit",
@@ -1122,7 +1029,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1132,7 +1038,6 @@
         "xenonId": 397,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Cottage Bise",
         "ville": "Talloires",
@@ -1146,7 +1051,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1156,7 +1060,6 @@
         "xenonId": 406,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Fleurville & SPA",
         "ville": "Fleurville",
@@ -1170,7 +1073,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1180,7 +1082,6 @@
         "xenonId": 408,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Château de l'Aubrière",
         "ville": "La Membrolle-sur-Choisille",
@@ -1194,7 +1095,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1204,7 +1104,6 @@
         "xenonId": 461,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Château de l'Abbaye de Moreilles",
         "ville": "Moreilles",
@@ -1218,7 +1117,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": "07/06/2019 03:12:45"
@@ -1228,7 +1126,6 @@
         "xenonId": 475,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Château des Salles",
         "ville": "Saint-Fort-sur-Gironde",
@@ -1242,7 +1139,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1252,7 +1148,6 @@
         "xenonId": 487,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Château de Jallanges",
         "ville": "Vouvray",
@@ -1266,7 +1161,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1276,7 +1170,6 @@
         "xenonId": 2014,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Les Bories & SPA",
         "ville": "Gordes",
@@ -1290,7 +1183,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1300,7 +1192,6 @@
         "xenonId": 2025,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Maréchal",
         "ville": "Colmar",
@@ -1314,7 +1205,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1324,7 +1214,6 @@
         "xenonId": 2034,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hostellerie Bérard & SPA",
         "ville": "La Cadière-d'Azur",
@@ -1338,7 +1227,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1348,7 +1236,6 @@
         "xenonId": 2040,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Les Glycines & SPA",
         "ville": "Les Eyzies-de-Tayac-Sireuil",
@@ -1362,7 +1249,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1372,7 +1258,6 @@
         "xenonId": 2042,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Mas de Peint",
         "ville": "Arles",
@@ -1386,7 +1271,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1396,7 +1280,6 @@
         "xenonId": 2043,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Radio",
         "ville": "Chamalières",
@@ -1410,7 +1293,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1420,7 +1302,6 @@
         "xenonId": 2044,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Ermitage de Corton",
         "ville": "Chorey-lès-Beaune",
@@ -1434,7 +1315,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1444,7 +1324,6 @@
         "xenonId": 2063,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hostellerie de l'Abbaye de la Celle",
         "ville": "La Celle-en-Provence",
@@ -1458,7 +1337,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1468,7 +1346,6 @@
         "xenonId": 2082,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "L'Yeuse",
         "ville": "Cognac",
@@ -1482,7 +1359,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1492,7 +1368,6 @@
         "xenonId": 2093,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château d'Ygrande",
         "ville": "Ygrande",
@@ -1506,7 +1381,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1516,7 +1390,6 @@
         "xenonId": 2101,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Coudrée",
         "ville": "Sciez-sur-Léman ",
@@ -1530,7 +1403,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1540,7 +1412,6 @@
         "xenonId": 2306,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "Le Clos du Meyre",
         "ville": "Avensan",
@@ -1554,7 +1425,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1564,7 +1434,6 @@
         "xenonId": 2325,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Auberge du Vieux Puits",
         "ville": "Fontjoncouse",
@@ -1578,7 +1447,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": "04/07/2019 17:44:41"
@@ -1588,7 +1456,6 @@
         "xenonId": 2326,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "L'Estelle en Camargue",
         "ville": "Saintes-Maries-de-la-Mer",
@@ -1602,7 +1469,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1612,7 +1478,6 @@
         "xenonId": 2333,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Réserve",
         "ville": "Saint-Jean-de-Luz",
@@ -1626,7 +1491,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1636,7 +1500,6 @@
         "xenonId": 2344,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Abbaye de Talloires",
         "ville": "Talloires",
@@ -1650,7 +1513,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1660,7 +1522,6 @@
         "xenonId": 2346,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château des Ducs de Joyeuse",
         "ville": "Couiza",
@@ -1674,7 +1535,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1684,7 +1544,6 @@
         "xenonId": 2352,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Roc e Fiori Hôtel",
         "ville": "Porto-Vecchio",
@@ -1698,7 +1557,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1708,7 +1566,6 @@
         "xenonId": 2372,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Michel Chabran",
         "ville": "Pont-de-l'Isère",
@@ -1722,7 +1579,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1732,7 +1588,6 @@
         "xenonId": 2377,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Château de la Ballue",
         "ville": "Bazouges-la-Pérouse",
@@ -1746,7 +1601,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1756,7 +1610,6 @@
         "xenonId": 2447,
         "prospectId": 0,
         "typeEstablishmentCode": "BB",
-        
         "typeTableId": 0,
         "name": "Aux Lyonnais",
         "ville": "Paris",
@@ -1770,7 +1623,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1780,7 +1632,6 @@
         "xenonId": 2462,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Villa Tri Men",
         "ville": "Sainte-Marine Combrit",
@@ -1794,7 +1645,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1804,7 +1654,6 @@
         "xenonId": 2466,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Edward Ier",
         "ville": "Monpazier",
@@ -1818,7 +1667,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1828,7 +1676,6 @@
         "xenonId": 2475,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel-Restaurant du Port",
         "ville": "Yvoire",
@@ -1842,7 +1689,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1852,7 +1698,6 @@
         "xenonId": 2481,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Mascaret",
         "ville": "Blainville-sur-Mer",
@@ -1866,7 +1711,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1876,7 +1720,6 @@
         "xenonId": 2482,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Château de Champlong GOLF & SPA",
         "ville": "Villerest",
@@ -1890,7 +1733,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1900,7 +1742,6 @@
         "xenonId": 2485,
         "prospectId": 0,
         "typeEstablishmentCode": "R",
-        
         "typeTableId": 0,
         "name": "Les Flots",
         "ville": "La Rochelle",
@@ -1914,7 +1755,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1924,7 +1764,6 @@
         "xenonId": 2497,
         "prospectId": 0,
         "typeEstablishmentCode": "R",
-        
         "typeTableId": 0,
         "name": "Une Table au Sud",
         "ville": "Marseille",
@@ -1938,7 +1777,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1948,7 +1786,6 @@
         "xenonId": 2504,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Auberge du Cheval Blanc",
         "ville": "Selles-Saint-Denis",
@@ -1962,7 +1799,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1972,7 +1808,6 @@
         "xenonId": 2507,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Domaine de Barive - Les Epicuriens",
         "ville": "Sainte-Preuve",
@@ -1986,7 +1821,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -1996,7 +1830,6 @@
         "xenonId": 2508,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Grange de Condé",
         "ville": "Condé-Northen",
@@ -2010,7 +1843,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2020,7 +1852,6 @@
         "xenonId": 2511,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Chartreuse du Bignac",
         "ville": "Saint-Nexans",
@@ -2034,7 +1865,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2044,7 +1874,6 @@
         "xenonId": 2516,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "La Villa Romaine",
         "ville": "Carsac-Aillac",
@@ -2058,7 +1887,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2068,7 +1896,6 @@
         "xenonId": 2525,
         "prospectId": 0,
         "typeEstablishmentCode": "H",
-        
         "typeTableId": 0,
         "name": "La Ramade",
         "ville": "Avranches",
@@ -2082,7 +1909,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2092,7 +1918,6 @@
         "xenonId": 2529,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Château de Courban & SPA Nuxe",
         "ville": "Courban",
@@ -2106,7 +1931,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2116,7 +1940,6 @@
         "xenonId": 2542,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Mas de Fauchon",
         "ville": "Saint-Cannat",
@@ -2130,7 +1953,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2140,7 +1962,6 @@
         "xenonId": 2555,
         "prospectId": 0,
         "typeEstablishmentCode": "BB",
-        
         "typeTableId": 0,
         "name": "Le Bistrot des Clercs",
         "ville": "Valence",
@@ -2154,7 +1975,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2164,7 +1984,6 @@
         "xenonId": 2557,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel Restaurant BAUD",
         "ville": "Bonne",
@@ -2178,7 +1997,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2188,7 +2006,6 @@
         "xenonId": 2568,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Auberge des Pins",
         "ville": "Sabres",
@@ -2202,7 +2019,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2212,7 +2028,6 @@
         "xenonId": 2570,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Les Arnelles",
         "ville": "Saintes-Maries-de-la-Mer",
@@ -2226,7 +2041,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2236,7 +2050,6 @@
         "xenonId": 2580,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Le Mas de La Rose",
         "ville": "Orgon",
@@ -2250,7 +2063,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2260,7 +2072,6 @@
         "xenonId": 2583,
         "prospectId": 0,
         "typeEstablishmentCode": "MH",
-        
         "typeTableId": 0,
         "name": "Château Valmy",
         "ville": "Argelès-sur-Mer",
@@ -2274,7 +2085,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2284,7 +2094,6 @@
         "xenonId": 2597,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Auberge du Lac",
         "ville": "Saint-Marcel-lès-Annonay",
@@ -2298,7 +2107,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2308,7 +2116,6 @@
         "xenonId": 2599,
         "prospectId": 0,
         "typeEstablishmentCode": "BB",
-        
         "typeTableId": 0,
         "name": "Benoit",
         "ville": "Paris",
@@ -2322,7 +2129,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2332,7 +2138,6 @@
         "xenonId": 2607,
         "prospectId": 0,
         "typeEstablishmentCode": "BB",
-        
         "typeTableId": 0,
         "name": "Le Bistrot de Lyon",
         "ville": "Lyon",
@@ -2346,7 +2151,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2356,7 +2160,6 @@
         "xenonId": 2610,
         "prospectId": 0,
         "typeEstablishmentCode": "HR",
-        
         "typeTableId": 0,
         "name": "Hôtel du Tumulus",
         "ville": "Carnac",
@@ -2370,7 +2173,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
@@ -2380,7 +2182,6 @@
         "xenonId": 2634,
         "prospectId": 0,
         "typeEstablishmentCode": "R",
-        
         "typeTableId": 0,
         "name": "Le Relais des Moines",
         "ville": "Les Arcs-sur-Argens",
@@ -2394,7 +2195,6 @@
         "btob": 0,
         "fidelity": 0,
         "isNew": 0,
-        
         "modifiedAt": "",
         "createdAt": "08/02/2019 10:34:56",
         "updatedAt": ""
